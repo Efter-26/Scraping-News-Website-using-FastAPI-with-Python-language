@@ -78,12 +78,15 @@ Step 5: Access the Application
 Open your browser and navigate to http://localhost:8501 to view the Streamlit UI.
 ```
 ## **6. Screenshots**
-Homepage: Display the news feed and summaries.
+### Homepage: Display the news feed and summaries.
+
 ![Home](https://github.com/user-attachments/assets/fcac2034-e6c4-419c-b35a-06f8e83eae5f)
 
-Scraping Status: Show the current scraping process.
+### Scraping Status: Show the current scraping process.
+
 ![scrapping](https://github.com/user-attachments/assets/54d91f03-b936-4bcd-96bf-3d1e03014728)
 
-Database View: Overview of stored articles.
+### Database View: Overview of stored articles.
+
 ![database](https://github.com/user-attachments/assets/9df8018c-e976-4d37-a399-9c94b0a5b4dd)
 
