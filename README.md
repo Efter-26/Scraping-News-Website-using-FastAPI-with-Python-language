@@ -41,14 +41,13 @@ This project is designed to scrape news articles from specified websites, store 
 - `uvicorn`
 - `mysql-connector-python`
 - `sqlalchemy`
-- `openai` or `transformers` (depending on the LLM)
+- `groq` (depending on the LLM)
 - `streamlit`
 - `requests`
-- `beautifulsoup4` (if scraping with BeautifulSoup)
 - `pydantic`
 
 ### **System:**
-- OS: Windows, macOS, or Linux
+- OS: Windows
 - Hardware: Minimum 8 GB RAM, 4 CPU cores
 
 ## **Installation and Setup**
