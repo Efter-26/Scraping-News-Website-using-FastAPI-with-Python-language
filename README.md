@@ -60,23 +60,36 @@ Follow the steps below to set up the project on your local machine:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Step 2: Install Dependencies**
+```
+### **Step 2: Install Dependencies**
+
+```bash
 pip install -r requirements.txt
-Step 3: Set Up MySQL Database
+```
+### **Step 3: Set Up MySQL Database**
 Install MySQL Server and create a database.
 Create a .env file in the root directory with your MySQL credentials:
+
+```bash
 DB_HOST=localhost
 DB_USER=youruser
 DB_PASSWORD=yourpassword
 DB_NAME=newsdb
-Step 4: Run the Application
-Backend (FastAPI)
-run main.py
-Frontend (Streamlit)
-streamlit run Home.py
-Step 5: Access the Application
-Open your browser and navigate to http://localhost:8501 to view the Streamlit UI.
 ```
+### **Step 4: Run the Application**
+Backend (FastAPI)
+
+```bash
+run main.py
+```
+Frontend (Streamlit)
+
+```bash
+streamlit run Home.py
+```
+### **Step 5: Access the Application**
+Open your browser and navigate to http://localhost:8501 to view the Streamlit UI.
+
 ## **6. Screenshots**
 ### Homepage: Display the news feed and summaries.
 
