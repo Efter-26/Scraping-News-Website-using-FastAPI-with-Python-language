@@ -1,54 +1,66 @@
-#Project Title: News Scraping and Summarization
-Table of Contents
-Project Overview
-Features
-Tech Stack
-Requirements
-Installation and Setup
-Screenshots
+# **Project Title: News Scraping and Summarization**
+# **Table of Contents**
 
-1. Project Overview
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Requirements](#requirements)
+- [Installation and Setup](#installation-and-setup)
+- [Screenshots](#screenshots)
+
+## **1. Project Overview**
 This project is designed to scrape news articles from specified websites, store the data in a MySQL database, generate concise summaries using a Large Language Model (LLM), and provide a user-friendly interface via Streamlit. It aims to make news consumption easier by summarizing articles and presenting them in a simple, digestible format.
 
-2. Features
-Web Scraping: Collect news articles from various websites using FastAPI.
-Database Management: Store and manage news articles in a MySQL database.
-Summary Generation: Use an LLM to generate concise summaries of the articles.
-User Interface: Provide a simple UI for viewing news and summaries using Streamlit.
-Real-Time Updates: Periodically update the news database with the latest articles.
+## **2. Features**
+- **Web Scraping:** Collect news articles from various websites using FastAPI.
+- **Database Management:** Store and manage news articles in a MySQL database.
+- **Summary Generation:** Use an LLM to generate concise summaries of the articles.
+- **User Interface:** Provide a simple UI for viewing news and summaries using Streamlit.
+- **Real-Time Updates:** Periodically update the news database with the latest articles.
 
-3. Tech Stack
-Backend:
-FastAPI: For creating the RESTful API.
-MySQL: For storing news articles.
-Machine Learning:
-LLM Model: For generating summaries of the articles.
-Frontend:
-Streamlit: For creating the user interface.
-Python: For scripting and automation.
+## **3. Tech Stack**
 
-4. Requirements
-Software:
-Python 3.8 or higher
-MySQL Server
-Python Packages:
-fastapi
-uvicorn
-mysql-connector-python
-sqlalchemy
-Groq (depending on the LLM)
-streamlit
-requests
-pydantic
-System:
-OS: Windows
-Hardware: Minimum 8 GB RAM, 4 CPU cores
+- **Backend:**
+  - FastAPI: For creating the RESTful API.
+  - MySQL: For storing news articles.
+- **Machine Learning:**
+  - LLM Model: For generating summaries of the articles.
+- **Frontend:**
+  - Streamlit: For creating the user interface.
+  - Python: For scripting and automation.
 
-5. Installation and Setup
-Step 1: Create virtual environment
+## **4. Requirements**
+
+### **Software:**
+- Python 3.8 or higher
+- MySQL Server
+- Docker (optional, for containerization)
+
+### **Python Packages:**
+- `fastapi`
+- `uvicorn`
+- `mysql-connector-python`
+- `sqlalchemy`
+- `openai` or `transformers` (depending on the LLM)
+- `streamlit`
+- `requests`
+- `beautifulsoup4` (if scraping with BeautifulSoup)
+- `pydantic`
+
+### **System:**
+- OS: Windows, macOS, or Linux
+- Hardware: Minimum 8 GB RAM, 4 CPU cores
+
+## **Installation and Setup**
+
+Follow the steps below to set up the project on your local machine:
+
+### **Step 1: Create the Virtual Environment**
+
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Step 2: Install Dependencies
+Step 2: Install Dependencies**
 pip install -r requirements.txt
 Step 3: Set Up MySQL Database
 Install MySQL Server and create a database.
@@ -64,8 +76,8 @@ Frontend (Streamlit)
 streamlit run Home.py
 Step 5: Access the Application
 Open your browser and navigate to http://localhost:8501 to view the Streamlit UI.
-
-6. Screenshots
+```
+## **6. Screenshots**
 Homepage: Display the news feed and summaries.
 ![Home](https://github.com/user-attachments/assets/fcac2034-e6c4-419c-b35a-06f8e83eae5f)
 
