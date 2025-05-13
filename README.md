@@ -21,7 +21,8 @@ This project is designed to scrape news articles from specified websites, store 
 ## **3. Tech Stack**
 
 - **Backend:**
-  - FastAPI: For creating the RESTful API.
+  - FastAPI: For creating the RESTful API using Python.
+- **Database**
   - MySQL: For storing news articles.
 - **Machine Learning:**
   - LLM Model: For generating summaries of the articles.
