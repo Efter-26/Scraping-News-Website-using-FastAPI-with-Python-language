@@ -87,7 +87,7 @@ Frontend (Streamlit)
 streamlit run Home.py
 ```
 ### **Step 5: Access the Application**
-Open your browser and navigate to http://localhost:8501 to view the Streamlit UI.
+Open your browser and navigate to http://localhost:8501 to view the Streamlit UI. But as it set on local server it can't be view in publicly that's why I have attached the screenshots in below.
 
 ## **6. Screenshots**
 ### Homepage: Display the news feed and summaries.
